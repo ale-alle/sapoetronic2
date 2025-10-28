@@ -12,46 +12,44 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo placeholder */}
           <div className="flex items-center">
-            <div className="w-12 h-12 bg-light-green/20 rounded-lg flex items-center justify-center border-2 border-light-green/40">
-              <span className="text-light-green font-bold text-sm">LOGO</span>
-            </div>
+                      <img src="/sapoetronic-logo.png" alt="Logo" className="w-100 h-max" />
           </div>
 
           {/* Navigation links */}
           <nav className="hidden md:flex space-x-8">
             <button
               onClick={() => scrollToSection('about')}
-              className="hover:text-light-green transition-colors duration-300 font-medium"
+              className="hover:text-light-green hover:scale-120 transition-colors duration-300 font-medium"
             >
               About
             </button>
             <button
-              onClick={() => scrollToSection('sapo')}
-              className="hover:text-light-green transition-colors duration-300 font-medium"
+              onClick={() => scrollToSection('sapoetronic')}
+              className="hover:text-light-green hover:scale-120 transition-colors duration-300 font-medium"
             >
-              Sapo
+              Sapoetronic
             </button>
             <button
               onClick={() => scrollToSection('design')}
-              className="hover:text-light-green transition-colors duration-300 font-medium"
+              className="hover:text-light-green hover:scale-120 transition-colors duration-300 font-medium"
             >
               Design
             </button>
             <button
               onClick={() => scrollToSection('photos')}
-              className="hover:text-light-green transition-colors duration-300 font-medium"
+              className="hover:text-light-green hover:scale-120 transition-colors duration-300 font-medium"
             >
               Photos
             </button>
             <button
               onClick={() => scrollToSection('video')}
-              className="hover:text-light-green transition-colors duration-300 font-medium"
+              className="hover:text-light-green hover:scale-120 transition-colors duration-300 font-medium"
             >
               Video
             </button>
             <a
               href="mailto:rodolfo@sapoetronic.com"
-              className="hover:text-light-green transition-colors duration-300 font-medium"
+              className="hover:text-light-green hover:scale-120 transition-colors duration-300 font-medium"
             >
               Contact
             </a>
@@ -83,10 +81,10 @@ const Header = () => {
               About
             </button>
             <button
-              onClick={() => scrollToSection('sapo')}
+              onClick={() => scrollToSection('sapoetronic')}
               className="hover:text-light-green transition-colors duration-300 font-medium text-left py-2"
             >
-              Sapo
+              Sapoetronic
             </button>
             <button
               onClick={() => scrollToSection('design')}

@@ -1,4 +1,4 @@
-# Logs
+﻿# Logs
 logs
 *.log
 npm-debug.log*
@@ -17,24 +17,8 @@ dist-ssr
 !.vscode/extensions.json
 .idea
 .DS_Store
-Thumbs.db
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
-
-# Environment files
-.env
-.env.local
-.env.*.local
-
-# Build output
-build
-
-# Caches
-.vite
-.eslintcache
-
-# Test coverage
-coverage

@@ -6,35 +6,8 @@ const Footer = () => {
           {/* Logo and Description */}
           <div>
             <div className="flex items-center mb-4">
-              <div className="w-12 h-12 bg-light-green/20 rounded-lg flex items-center justify-center border-2 border-light-green/40">
-                <span className="text-light-green font-bold text-sm">LOGO</span>
-              </div>
+                          <img src="/sapoetronic-icon.png" alt="Sapoetronic Logo" className="w-20 h-max" />
               <span className="ml-3 text-xl font-semibold">Sapoetronic</span>
-            </div>
-            <p className="text-light-green/80 text-sm">
-              Professional design, photography, and video production services.
-            </p>
-          </div>
-
-          {/* Quick Links */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
-            <div className="space-y-2">
-              <a href="#about" className="block text-light-green/80 hover:text-light-green transition-colors">
-                About
-              </a>
-              <a href="#sapo" className="block text-light-green/80 hover:text-light-green transition-colors">
-                Sapo
-              </a>
-              <a href="#design" className="block text-light-green/80 hover:text-light-green transition-colors">
-                Design
-              </a>
-              <a href="#photos" className="block text-light-green/80 hover:text-light-green transition-colors">
-                Photos
-              </a>
-              <a href="#video" className="block text-light-green/80 hover:text-light-green transition-colors">
-                Video
-              </a>
             </div>
           </div>
 

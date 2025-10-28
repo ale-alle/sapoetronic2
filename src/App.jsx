@@ -1,6 +1,6 @@
 import Header from './components/Header'
 import About from './components/About'
-import Sapo from './components/Sapo'
+import Sapoetronic from './components/Sapoetronic'
 import Design from './components/Design'
 import Photos from './components/Photos'
 import Video from './components/Video'
@@ -12,7 +12,7 @@ function App() {
       <Header />
       <main>
         <About />
-        <Sapo />
+        <Sapoetronic />
         <Design />
         <Photos />
         <Video />
