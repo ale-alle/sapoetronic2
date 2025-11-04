@@ -5,12 +5,12 @@ m;
 
 const Photos = () => {
  const IMAGES = [
- "/sapoetronic-iso.png",
+ "/spinner.jpg",
  "/sapo-front.png",
  "/sapo.JPG",
  "/sapo-scoreboard.jpg",
  "/tokens.jpg",
- "/sapo-x3.png",
+ "/sapo-scorecard.jpg",
  ];
 
  return (
@@ -32,15 +32,6 @@ const Photos = () => {
  >
  Photos
  </m.h2>
- <m.p
- className="text-lg text-gray-700 text-center max-w-3xl mx-auto mb-12"
- initial={{ opacity:0, y:24 }}
- whileInView={{ opacity:1, y:0 }}
- viewport={{ once: true, amount:0.2 }}
- transition={{ duration:0.6, ease: [0.22,1,0.36,1], delay:0.15 }}
- >
- Capturing moments that matter with professional photography services tailored to your needs.
- </m.p>
  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
  {IMAGES.map((src, idx) => (
  <m.div
@@ -58,10 +49,6 @@ const Photos = () => {
  className="w-full h-full object-cover"
  loading="lazy"
  />
- </div>
- <div className="p-4">
- <h3 className="text-lg font-semibold text-dark-green">Photo Gallery {idx +1}</h3>
- <p className="text-gray-600 text-sm mt-1">Professional photography showcase</p>
  </div>
  </m.div>
  ))}

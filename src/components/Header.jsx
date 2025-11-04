@@ -30,12 +30,6 @@ const Header = () => {
               Sapoetronic
             </button>
             <button
-              onClick={() => scrollToSection('design')}
-                        className="hover:text-light-green hover:scale-120 transition-colors duration-300 font-medium text-lg"
-            >
-              Design
-            </button>
-            <button
               onClick={() => scrollToSection('photos')}
                         className="hover:text-light-green hover:scale-120 transition-colors duration-300 font-medium text-lg"
             >
