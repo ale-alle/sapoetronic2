@@ -5,20 +5,23 @@ import Design from './components/Design'
 import Photos from './components/Photos'
 import Video from './components/Video'
 import Footer from './components/Footer'
+import { LazyMotion, domAnimation } from 'framer-motion'
 
 function App() {
   return (
-    <div className="min-h-screen bg-light-green">
-      <Header />
-      <main>
-        <About />
-        <Sapoetronic />
-        <Design />
-        <Photos />
-        <Video />
-      </main>
-      <Footer />
-    </div>
+    <LazyMotion features={domAnimation} strict>
+      <div className="min-h-screen bg-light-green">
+        <Header />
+        <main>
+          <About />
+          <Sapoetronic />
+          <Design />
+          <Photos />
+          <Video />
+        </main>
+        <Footer />
+      </div>
+    </LazyMotion>
   )
 }
 

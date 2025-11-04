@@ -1,30 +1,74 @@
+/* eslint-disable no-unused-vars */
+import { m } from 'framer-motion';
+// eslint-disable-next-line no-unused-expressions
+m;
+
 const Video = () => {
-  return (
-    <section id="video" className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
-      <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl font-bold text-dark-green mb-6 text-center">Video</h2>
-        <p className="text-lg text-gray-700 text-center max-w-3xl mx-auto mb-12">
-          Check out Sapoetronic's latest video to see it in action!
-        </p>
-        <div className="grid md:grid-cols-1 gap-8">
-          <div className="bg-light-green rounded-lg p-8 shadow-lg">
-            <div className="aspect-video rounded-lg overflow-hidden mb-4">
-              <iframe
-                className="w-full h-full"
-                src="https://www.youtube.com/embed/PfQ6oQsELKU"
-                title="Sapoetronic - YouTube video"
-                frameBorder="0"
-                loading="lazy"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
+ return (
+ <m.section
+ id="video"
+ className="py-16 px-4 sm:px-6 lg:px-8 bg-white"
+ initial={{ opacity:0, y:24 }}
+ whileInView={{ opacity:1, y:0 }}
+ viewport={{ once: true, amount:0.2 }}
+ transition={{ duration:0.6, ease: [0.22,1,0.36,1] }}
+ >
+ <div className="max-w-7xl mx-auto">
+ <m.h2
+ className="text-4xl font-bold text-dark-green mb-6 text-center"
+ initial={{ opacity:0, y:24 }}
+ whileInView={{ opacity:1, y:0 }}
+ viewport={{ once: true, amount:0.2 }}
+ transition={{
+ duration:0.6,
+ ease: [0.22,1,0.36,1],
+ delay:0.1,
+ }}
+ >
+ Video
+ </m.h2>
+ <m.p
+ className="text-lg text-gray-700 text-center max-w-3xl mx-auto mb-12"
+ initial={{ opacity:0, y:24 }}
+ whileInView={{ opacity:1, y:0 }}
+ viewport={{ once: true, amount:0.2 }}
+ transition={{
+ duration:0.6,
+ ease: [0.22,1,0.36,1],
+ delay:0.15,
+ }}
+ >
+ Check out Sapoetronic's latest video to see it in action!
+ </m.p>
+ <div className="grid md:grid-cols-1 gap-8">
+ <m.div
+ className="bg-light-green rounded-lg p-8 shadow-lg"
+ initial={{ opacity:0, y:24 }}
+ whileInView={{ opacity:1, y:0 }}
+ viewport={{ once: true, amount:0.2 }}
+ transition={{
+ duration:0.6,
+ ease: [0.22,1,0.36,1],
+ delay:0.2,
+ }}
+ >
+ <div className="aspect-video rounded-lg overflow-hidden mb-4">
+ <iframe
+ className="w-full h-full"
+ src="https://www.youtube.com/embed/PfQ6oQsELKU"
+ title="Sapoetronic - YouTube video"
+ frameBorder="0"
+ loading="lazy"
+ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+ referrerPolicy="strict-origin-when-cross-origin"
+ allowFullScreen
+ />
+ </div>
+ </m.div>
+ </div>
+ </div>
+ </m.section>
+ );
 };
 
 export default Video;

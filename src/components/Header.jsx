@@ -12,44 +12,44 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo placeholder */}
           <div className="flex items-center">
-                      <img src="/sapoetronic-logo.png" alt="Logo" className="w-100 h-max" />
+            <img src="/sapoetronic-logo.png" alt="Logo" className="w-80 h-max" />
           </div>
 
           {/* Navigation links */}
           <nav className="hidden md:flex space-x-8">
             <button
               onClick={() => scrollToSection('about')}
-              className="hover:text-light-green hover:scale-120 transition-colors duration-300 font-medium"
+              className="hover:text-light-green hover:scale-120 transition-colors duration-300 font-medium text-lg"
             >
               About
             </button>
             <button
               onClick={() => scrollToSection('sapoetronic')}
-              className="hover:text-light-green hover:scale-120 transition-colors duration-300 font-medium"
+                        className="hover:text-light-green hover:scale-120 transition-colors duration-300 font-medium text-lg"
             >
               Sapoetronic
             </button>
             <button
               onClick={() => scrollToSection('design')}
-              className="hover:text-light-green hover:scale-120 transition-colors duration-300 font-medium"
+                        className="hover:text-light-green hover:scale-120 transition-colors duration-300 font-medium text-lg"
             >
               Design
             </button>
             <button
               onClick={() => scrollToSection('photos')}
-              className="hover:text-light-green hover:scale-120 transition-colors duration-300 font-medium"
+                        className="hover:text-light-green hover:scale-120 transition-colors duration-300 font-medium text-lg"
             >
               Photos
             </button>
             <button
               onClick={() => scrollToSection('video')}
-              className="hover:text-light-green hover:scale-120 transition-colors duration-300 font-medium"
+                        className="hover:text-light-green hover:scale-120 transition-colors duration-300 font-medium text-lg"
             >
               Video
             </button>
             <a
               href="mailto:rodolfo@sapoetronic.com"
-              className="hover:text-light-green hover:scale-120 transition-colors duration-300 font-medium"
+                        className="hover:text-light-green hover:scale-120 transition-colors duration-300 font-medium text-lg"
             >
               Contact
             </a>
