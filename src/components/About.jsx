@@ -8,7 +8,7 @@ const About = () => {
   return (
     <m.section
       id="about"
-      className="px-4 sm:px-6 lg:px-8 bg-green-400"
+      className="px-4 sm:px-6 lg:px-8 bg-white"
       initial={{ opacity:0, y:24 }}
       whileInView={{ opacity:1, y:0 }}
       viewport={{ once: true, amount:0.2 }}

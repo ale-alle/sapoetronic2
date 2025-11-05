@@ -55,7 +55,7 @@ const Video = () => {
  <div className="aspect-video rounded-lg overflow-hidden mb-4">
  <iframe
  className="w-full h-full"
- src="https://www.youtube.com/embed/PfQ6oQsELKU"
+ src="https://www.youtube.com/embed/PfQ6oQsELKU?rel=0"
  title="Sapoetronic - YouTube video"
  frameBorder="0"
  loading="lazy"

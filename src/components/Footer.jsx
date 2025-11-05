@@ -12,7 +12,7 @@ const Footer = () => {
       transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
     >
       <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-3 gap-8 mb-8">
+        <div className="grid md:grid-cols-2 gap-8 mb-8">
           {/* Logo and Description */}
           <m.div
             initial={{ opacity: 0, y: 24 }}
@@ -30,7 +30,11 @@ const Footer = () => {
                 alt="Sapoetronic Logo"
                 className="w-20 h-max"
               />
-              <span className="ml-3 text-xl font-semibold">Sapoetronic</span>
+              <img
+                src="/sapoetronic-logo.png"
+                alt="Sapoetronic Logo"
+                className="w-max h-10"
+              />
             </div>
           </m.div>
 
@@ -87,20 +91,6 @@ const Footer = () => {
               &copy; {new Date().getFullYear()} Sapoetronic.com. All rights
               reserved.
             </p>
-            <div className="flex space-x-4 mt-4 md:mt-0">
-              <a
-                href="#"
-                className="text-light-green/60 hover:text-light-green text-sm transition-colors"
-              >
-                Privacy Policy
-              </a>
-              <a
-                href="#"
-                className="text-light-green/60 hover:text-light-green text-sm transition-colors"
-              >
-                Terms of Service
-              </a>
-            </div>
           </div>
         </m.div>
       </div>
