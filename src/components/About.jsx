@@ -8,16 +8,16 @@ const About = () => {
   return (
     <m.section
       id="about"
-      className="px-4 sm:px-6 lg:px-8 bg-white"
+      className="px-4 sm:px-6 lg:px-8 bg-[#A9F27C]"
       initial={{ opacity:0, y:24 }}
       whileInView={{ opacity:1, y:0 }}
       viewport={{ once: true, amount:0.2 }}
       transition={{ duration:0.6, ease: [0.22,1,0.36,1] }}
     >
       <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-2 items-center">
+        <div className="grid md:grid-cols-2 items-start">
           <m.div
-            className="flex justify-center scale-60"
+            className="flex justify-center scale-80"
             initial={{ opacity:0, y:24 }}
             whileInView={{ opacity:1, y:0 }}
             viewport={{ once: true, amount:0.3 }}
@@ -32,9 +32,9 @@ const About = () => {
               transition={{ duration:0.6, ease: [0.22,1,0.36,1], delay:0.05 }}
             />
           </m.div>
-          <div className="space-y-4">
+          <div className="space-y-6 mt-25">
             <m.h2
-              className="text-4xl font-bold text-black mb-6 text-center"
+              className="text-4xl font-bold text-dark-green mb-6 text-center"
               initial={{ opacity:0, y:24 }}
               whileInView={{ opacity:1, y:0 }}
               viewport={{ once: true, amount:0.2 }}
@@ -43,7 +43,7 @@ const About = () => {
               What is Sapo?
             </m.h2>
             <m.p
-              className="text-lg text-black leading-relaxed"
+              className="text-lg text-[#002901] leading-relaxed"
               initial={{ opacity:0, y:24 }}
               whileInView={{ opacity:1, y:0 }}
               viewport={{ once: true, amount:0.2 }}
@@ -53,7 +53,7 @@ const About = () => {
               America - a traditional coin-tossing game that brings people together around laughter, challenge, and precision.
             </m.p>
             <m.p
-              className="text-lg text-black leading-relaxed"
+              className="text-lg text-[#002901] leading-relaxed"
               initial={{ opacity:0, y:24 }}
               whileInView={{ opacity:1, y:0 }}
               viewport={{ once: true, amount:0.2 }}
@@ -62,7 +62,7 @@ const About = () => {
               Rooted in legend and passed down through generations, Sapo captures the spirit of community and play.
             </m.p>
             <m.p
-              className="text-lg text-black leading-relaxed"
+              className="text-lg text-[#002901] leading-relaxed"
               initial={{ opacity:0, y:24 }}
               whileInView={{ opacity:1, y:0 }}
               viewport={{ once: true, amount:0.2 }}
@@ -71,7 +71,7 @@ const About = () => {
               Sapoetronic reimagines this timeless game for the modern era - combining classic gameplay with electronic scoring, sleek design, and durable craftsmanship.
             </m.p>
             <m.p
-              className="text-lg text-black leading-relaxed"
+              className="text-lg text-[#002901] leading-relaxed"
               initial={{ opacity:0, y:24 }}
               whileInView={{ opacity:1, y:0 }}
               viewport={{ once: true, amount:0.2 }}

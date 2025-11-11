@@ -6,7 +6,7 @@ m;
 const Photos = () => {
  const IMAGES = [
  "/spinner.jpg",
- "/sapo-front.png",
+ "/sapo-front.jpg",
  "/sapo.JPG",
  "/sapo-scoreboard.jpg",
  "/tokens.jpg",
@@ -16,7 +16,7 @@ const Photos = () => {
  return (
  <m.section
  id="photos"
- className="py-16 px-4 sm:px-6 lg:px-8 bg-light-green"
+ className="py-16 px-4 sm:px-6 lg:px-8 bg-[#A9F27C]"
  initial={{ opacity:0, y:24 }}
  whileInView={{ opacity:1, y:0 }}
  viewport={{ once: true, amount:0.2 }}

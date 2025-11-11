@@ -3,6 +3,7 @@ import About from './components/About'
 import Sapoetronic from './components/Sapoetronic'
 import Photos from './components/Photos'
 import Video from './components/Video'
+import ContactSection from './components/ContactSection'
 import Footer from './components/Footer'
 import ParallaxBand from './components/ParallaxBand'
 import { LazyMotion, domAnimation } from 'framer-motion'
@@ -23,6 +24,7 @@ function App() {
           <ParallaxBand src="/lima-3.jpg" alt="Lima scene 4" height="80vh" speed={1} />
 
           <Video />
+          <ContactSection />
         </main>
         <Footer />
       </div>
