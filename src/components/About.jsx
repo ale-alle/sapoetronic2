@@ -27,10 +27,10 @@ const About = () => {
               transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1], delay: 0.05 }}
             />
           </m.div>
-          <div className="space-y-6 sm:m-0 md:m-8 lg:m-12">
+          <div className="space-y-6 sm:m-10 md:m-12 lg:m-14">
             <m.h2
               id="about-title"
-              className="text-5xl font-bold text-[#1A4D1E] text-center"
+              className="text-5xl font-bold text-[#1A4D1E] text-center mb-16"
               initial={{ opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.2 }}
