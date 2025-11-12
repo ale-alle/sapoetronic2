@@ -3,17 +3,13 @@ import { Plug, Hammer, Lightbulb } from 'lucide-react';
 
 const Sapoetronic = () => {
   return (
-    <m.section
+    <section
       id="sapoetronic"
-      className="py-20 px-4 sm:px-6 lg:px-8 bg-[#A9F27C]"
-      initial={{ opacity:0, y:24 }}
-      whileInView={{ opacity:1, y:0 }}
-      viewport={{ once: true, amount:0.2 }}
-      transition={{ duration:0.6, ease: [0.22,1,0.36,1] }}
+      className="py-16 px-4 sm:px-6 lg:px-8 bg-[#A9F27C]"
     >
       <div className="max-w-7xl mx-auto">
         <m.h2
-          className="text-4xl font-bold text-dark-green mb-6 text-center"
+          className="text-5xl font-bold text-[#1A4D1E] mb-16 text-center"
           initial={{ opacity:0, y:24 }}
           whileInView={{ opacity:1, y:0 }}
           viewport={{ once: true, amount:0.2 }}
@@ -21,7 +17,7 @@ const Sapoetronic = () => {
         >
           Sapoetronic
         </m.h2>
-        <div className="bg-white rounded-lg shadow-lg p-8">
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
           <div className="grid md:grid-cols-3 gap-8">
             <m.div
               className="text-center"
@@ -30,7 +26,7 @@ const Sapoetronic = () => {
               viewport={{ once: true, amount:0.3 }}
               transition={{ duration:0.6, ease: [0.22,1,0.36,1], delay:0.12 }}
             >
-              <div className="w-16 h-16 bg-dark-green rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#1A4D1E] rounded-full flex items-center justify-center mx-auto mb-4">
                 <Plug size={34} color="white" strokeWidth={2} aria-hidden="true" />
               </div>
               <h3 className="text-xl font-semibold text-[#002901] mb-2">New Electronic Design</h3>
@@ -47,7 +43,7 @@ const Sapoetronic = () => {
               viewport={{ once: true, amount:0.3 }}
               transition={{ duration:0.6, ease: [0.22,1,0.36,1], delay:0.2 }}
             >
-              <div className="w-16 h-16 bg-dark-green rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#1A4D1E] rounded-full flex items-center justify-center mx-auto mb-4">
                 <Hammer size={34} color="white" strokeWidth={2} aria-hidden="true" />
               </div>
               <h3 className="text-xl font-semibold text-[#002901] mb-2">Modern Construction</h3>
@@ -64,7 +60,7 @@ const Sapoetronic = () => {
               viewport={{ once: true, amount:0.3 }}
               transition={{ duration:0.6, ease: [0.22,1,0.36,1], delay:0.28 }}
             >
-              <div className="w-16 h-16 bg-dark-green rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#1A4D1E] rounded-full flex items-center justify-center mx-auto mb-4">
                 <Lightbulb size={34} color="white" strokeWidth={2} aria-hidden="true" />
               </div>
               <h3 className="text-xl font-semibold text-[#002901] mb-2">Innovation</h3>
@@ -76,7 +72,7 @@ const Sapoetronic = () => {
           </div>
         </div>
       </div>
-    </m.section>
+    </section>
   );
 };
 

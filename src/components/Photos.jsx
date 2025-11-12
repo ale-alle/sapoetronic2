@@ -14,17 +14,13 @@ const Photos = () => {
  ];
 
  return (
- <m.section
+ <section
  id="photos"
- className="py-16 px-4 sm:px-6 lg:px-8 bg-[#A9F27C]"
- initial={{ opacity:0, y:24 }}
- whileInView={{ opacity:1, y:0 }}
- viewport={{ once: true, amount:0.2 }}
- transition={{ duration:0.6, ease: [0.22,1,0.36,1] }}
+ className="py-16 px-8 sm:px-20 lg:px-20 bg-[#A9F27C]"
  >
  <div className="max-w-7xl mx-auto">
  <m.h2
- className="text-4xl font-bold text-dark-green mb-6 text-center"
+ className="text-5xl font-bold text-[#1A4D1E] mb-16 text-center"
  initial={{ opacity:0, y:24 }}
  whileInView={{ opacity:1, y:0 }}
  viewport={{ once: true, amount:0.2 }}
@@ -54,7 +50,7 @@ const Photos = () => {
  ))}
  </div>
  </div>
- </m.section>
+ </section>
  );
 };
 

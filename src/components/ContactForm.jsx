@@ -45,7 +45,7 @@ const ContactForm = () => {
 
   const fieldClasses =
     "w-full p-2 rounded border text-[#002901] placeholder-[#6BA548] " +
-    "border-dark-green focus:outline-none focus:ring-3 focus:ring-[#6BA548] focus:border-green";
+    "border-[#1A4D1E] focus:outline-none focus:ring-3 focus:ring-[#6BA548] focus:border-green";
 
   return (
     <>

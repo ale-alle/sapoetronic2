@@ -8,14 +8,10 @@ const Video = () => {
     <m.section
       id="video"
       className="py-16 px-4 sm:px-6 lg:px-8 bg-[#A9F27C]"
-      initial={{ opacity: 0, y: 24 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.2 }}
-      transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
     >
       <div className="max-w-7xl mx-auto">
         <m.h2
-          className="text-4xl font-bold text-dark-green mb-6 text-center"
+          className="text-5xl font-bold text-[#1A4D1E] mb-10 text-center"
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.2 }}
