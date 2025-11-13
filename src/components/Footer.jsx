@@ -71,7 +71,7 @@ const Footer = () => {
             "
           >
             <a
-              href="https://www.youtube.com/@Rudy-gu3kv"
+              href="https://www.youtube.com/channel/UCAkpnWPdmxaCKrYlLBlU7FA"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="YouTube"
@@ -90,7 +90,7 @@ const Footer = () => {
             </a>
             {/* Uncomment to enable Instagram
             <a
-              href="https://instagram.com/"
+              href="https://instagram.com/sapoetronic"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"

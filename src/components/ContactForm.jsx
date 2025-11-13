@@ -2,7 +2,7 @@ import { m, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 
 const CONTACT_ENDPOINT =
-  import.meta.env.VITE_CONTACT_ENDPOINT ?? "https://sapoetronic.ca/api/contact";
+  import.meta.env.VITE_CONTACT_ENDPOINT ?? "https://sapoetronic.com/api/contact";
 
 const ContactForm = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
